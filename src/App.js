@@ -26,7 +26,7 @@ function App() {
 
     }, [searchTerm]);
 
-    return (<div>
+    return (<div className="movieFrame">
         <h1> Movie listings </h1>
         <Search setTerm={setSearchTerm} value={searchTerm}/>
         <List movies={movies}/>

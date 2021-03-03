@@ -5,3 +5,8 @@
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
 }
+
+.movieFrame{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
